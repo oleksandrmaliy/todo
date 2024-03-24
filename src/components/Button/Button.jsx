@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import css from './Button.module.css';
 
-export const Button = ({
+const Button = ({
   selected = false,
   type = 'button',
   children,
@@ -19,3 +19,5 @@ export const Button = ({
     </button>
   );
 };
+
+export default Button;
