@@ -1,9 +1,5 @@
-// src/redux/constants.js
-
-const statusFilters = Object.freeze({
+export const statusFilters = {
   all: 'all',
   active: 'active',
   completed: 'completed',
-});
-
-export default statusFilters;
+};
